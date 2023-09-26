@@ -1,1 +1,29 @@
-// ??? 
+GET http://localhost:3000/users HTTP/1.1
+###
+GET https://project1-chhc.onrender.com/users HTTP/1.1
+###
+POST http://localhost:3000/users HTTP/1.1
+Content-Type: application/json
+  
+  {
+    "firstName": null,
+    "lastName": null,
+    "email": null,
+    "favoriteColor": null,
+    "birthday": null
+  }
+
+###
+PUT http://localhost:3000/users/65123053e799c96223c35dc9 HTTP/1.1
+Content-Type: application/json
+  
+  {
+    "firstName": null,
+    "lastName": null,
+    "email": null,
+    "favoriteColor": null,
+    "birthday": null
+  }
+###
+DELETE https://project1-chhc.onrender.com/users/650532d6a8e47a1b9d629ff1 HTTP/1.1
+
